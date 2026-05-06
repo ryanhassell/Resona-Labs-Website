@@ -186,16 +186,16 @@ main,
 .hero-statement {
   display: grid;
   align-content: center;
-  padding: clamp(44px, 6.5vw, 88px) clamp(72px, 8.5vw, 132px)
+  padding: clamp(44px, 6.5vw, 88px) clamp(104px, 12vw, 190px)
     clamp(44px, 6.5vw, 88px) clamp(44px, 6.5vw, 88px);
 }
 
 .hero-statement h1 {
-  max-width: 720px;
+  max-width: 660px;
 }
 
 .lead {
-  max-width: 660px;
+  max-width: 600px;
   font-size: clamp(1.02rem, 1.55vw, 1.22rem);
   line-height: 1.62;
 }
@@ -492,7 +492,7 @@ main,
   .contact-band > div,
   .email-panel > div,
   .email-link {
-    padding: 28px 30px 30px 22px;
+    padding: 28px 42px 30px 22px;
   }
 
   .action-row {
