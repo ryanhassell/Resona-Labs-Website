@@ -191,7 +191,9 @@ main,
 }
 
 .hero-statement h1 {
-  max-width: 620px;
+  width: min(100%, 500px);
+  max-width: 500px;
+  text-wrap: balance;
 }
 
 .lead {
