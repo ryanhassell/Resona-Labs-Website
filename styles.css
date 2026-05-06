@@ -106,7 +106,7 @@ main,
   height: 102px;
   object-fit: cover;
   object-position: center;
-  transform: scale(1.36);
+  transform: scale(1.7);
 }
 
 .brand-logo[hidden] {
@@ -176,6 +176,7 @@ main,
 .logo-panel {
   display: grid;
   place-items: center;
+  overflow: hidden;
   border-right: 1px solid var(--rule);
   background: rgba(255, 255, 255, 0.48);
 }
@@ -184,7 +185,7 @@ main,
   width: min(88%, 660px);
   object-fit: cover;
   object-position: center;
-  transform: scale(1.36);
+  transform: scale(1.7);
 }
 
 .hero-statement {
@@ -452,7 +453,7 @@ main,
 
   .logo-panel img {
     width: min(86%, 520px);
-    transform: scale(1.32);
+    transform: scale(1.6);
   }
 
   .principle-grid article,
@@ -483,7 +484,7 @@ main,
   .brand-logo {
     width: 92px;
     height: 72px;
-    transform: scale(1.28);
+    transform: scale(1.5);
   }
 
   h1 {
