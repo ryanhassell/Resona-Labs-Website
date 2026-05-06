@@ -91,9 +91,8 @@ main,
 }
 
 .brand {
-  display: grid;
-  grid-template-columns: 132px minmax(0, 1fr);
-  gap: 22px;
+  display: flex;
+  justify-content: center;
   align-items: center;
   min-height: 140px;
   padding: 14px 22px;
@@ -111,15 +110,6 @@ main,
 
 .brand-logo[hidden] {
   display: none;
-}
-
-.brand strong {
-  display: block;
-}
-
-.brand strong {
-  font-size: 1.08rem;
-  line-height: 1.16;
 }
 
 .site-nav a,
@@ -476,7 +466,6 @@ main,
   }
 
   .brand {
-    grid-template-columns: 92px minmax(0, 1fr);
     min-height: 112px;
     padding: 10px 14px;
   }
