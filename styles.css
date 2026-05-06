@@ -84,7 +84,7 @@ main,
 
 .site-header {
   display: grid;
-  grid-template-columns: minmax(260px, 1fr) auto;
+  grid-template-columns: 190px minmax(0, 1fr);
   margin-top: 18px;
   border: 1px solid var(--rule);
   background: rgba(243, 239, 232, 0.94);
@@ -467,7 +467,7 @@ main,
 
   .brand {
     min-height: 112px;
-    padding: 10px 14px;
+    padding: 10px;
   }
 
   .brand-logo {
